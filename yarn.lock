@@ -282,6 +282,12 @@ babel-plugin-check-es2015-constants@^6.22.0:
   dependencies:
     babel-runtime "^6.22.0"
 
+babel-plugin-polished@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-polished/-/babel-plugin-polished-1.0.3.tgz#ef50944d251a09f1d86eace0ed0686c640253134"
+  dependencies:
+    polished "^1.0.0"
+
 babel-plugin-transform-es2015-arrow-functions@^6.22.0:
   version "6.22.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-arrow-functions/-/babel-plugin-transform-es2015-arrow-functions-6.22.0.tgz#452692cb711d5f79dc7f85e440ce41b9f244d221"
@@ -1918,7 +1924,7 @@ pkg-dir@^1.0.0:
   dependencies:
     find-up "^1.0.0"
 
-polished@^1.1.2:
+polished@^1.0.0, polished@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/polished/-/polished-1.1.2.tgz#211a7b0abbc3dd25101f4e95399e72edf7317f0e"
 
